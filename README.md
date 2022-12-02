@@ -1,7 +1,5 @@
 # AWS Serverless Jenkins Terraform Module
-Terraform module which creates a serverless Jenkins environment based on AWS Fargate. The following resources are created:  
-
-[참고link](https://github.com/aws-samples/serverless-jenkins-on-aws-fargate/blob/main/README.md). 
+Terraform module which creates a serverless Jenkins environment based on AWS Fargate. The following resources are created:
 
 * Two Amazon ECS clusters
     * One utilizing the standard `FARGATE` capacity provider, which is to be used by the Jenkins controller and high priority agents.
